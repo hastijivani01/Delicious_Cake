@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stalemate&display=swap"
+        rel="stylesheet">
+    <style>
+        .nav-text {
+            color: #8e714c;
+        }
+
+        .header-text {
+            font-family: 'Stalemate';
+        }
+
+        .about-img {
+            background-image: url(./image/contact-title-image.jpg);
+            height: 800px;
+            background-attachment: fixed;
+        }
+
+        .about-text {
+            background-attachment: scroll;
+        }
+
+        .button {
+            margin-left: 100px;
+            border-radius: 4px;
+            color: white;
+            background-color: #5d3b0e;
+        }
+
+        .button:hover {
+            color: white;
+            background-color: #b89260;
+        }
+
+        .img-zoom :hover img {
+            transform: scale(1.2);
+            transition: ease-in-out 0.5s;
+        }
+
+        .bg {
+            background-color: #8e714c;
+        }
+
+        .bg:hover {
+            background-color: #5d3b0e;
+            transition: ease-in-out 0.5s;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w-full  about-img">
+        <!-- <img src="./image/about-title-image.jpg" alt=""> -->
+    </div>
+    <div class="w-full absolute bg-white top-0">
+        <div class="  bg-cover bg-center flex justify-center top-40"><img src="./image/sidearea-logo.png" width="200px"
+                height="200px" alt=""></div>
+
+        <nav class="flex justify-center space-x-4 ">
+            <a href="/index.html"
+                class="nav-text  px-7 py-4 uppercase rounded-lg hover:underline-offset-8 hover:text-rose-200 hover:underline ">Home</a>
+            <a href="/about.html"
+                class="nav-text  px-7 py-4 uppercase rounded-lg hover:underline-offset-8  hover:text-rose-200 hover:underline">about
+                us</a>
+            <a href="/gifts.html"
+                class="nav-text  px-7 py-4  uppercase rounded-lg hover:underline-offset-8 hover:text-rose-200 hover:underline">gifts</a>
+            <a href="/contact.html"
+                class="nav-text  px-7 py-4 uppercase rounded-lg hover:underline-offset-8 hover:text-rose-200 hover:underline">contact</a>
+
+        </nav>
+    </div>
+    <div class="w-full bg-white about-text pt-28 pb-40 flex" style="height: 420px;">
+        <div class="w-1/2">
+            <h1 class="nav-text header-text text-7xl text-center">Visit us or send a message</h1>
+            <div class="flex">
+                <i class="fa-solid fa-location-dot nav-text ml-32 pt-4"></i>
+                <h1 class="ml-8 pt-4 nav-text"> Avenue Montmartre 21/1, Paris</h1>
+            </div>
+            <div class="flex">
+                <i class="fa-solid fa-envelope  nav-text ml-32 pt-4"></i>
+                <h1 class="ml-8 pt-4 nav-text">bridge@example.com</h1>
+            </div>
+            <div class="flex">
+                <i class="fa-solid fa-phone  nav-text ml-32 pt-4 " ></i>
+                <h1 class="ml-8 pt-4 nav-text">00 1 123 456 789</h1>
+            </div>
+           
+        </div>
+        <div class="w-1/2">
+           <form action="" method="post">
+            <input class="border-2 p-2 px-36 text-left nav-text text-center" type="text" placeholder="Enter your name" ><br><br>
+            <input class="border-2 p-2 px-36 text-left nav-text text-center" type="text" placeholder="Your-E-mail" ><br><br>
+            <textarea class="border-2 p-2 px-36 text-left nav-text text-center" name="" cols="23" rows="4" placeholder="Message" id=""></textarea>
+           </form>
+           <div class="pt-6"><button class=" bottom-14 button uppercase text-1xl py-2 px-10 ml-2 ">buy
+            cake</button></div>
+        </div>
+        
+
+    </div>
+    <div class="w-full pt-20 pb-24">
+        <div class="relative">
+        <img src="./image/map-1.jpg" style="height: 470px;" alt="">
+        <div class="absolute bottom-52" style="margin-left: 800px;">
+            <img src="./image/pin.png" style="height: 50px;" alt="">
+        </div>
+    </div>
+    </div>
+
+    
+    <div class="w-full">
+        <div class="" style="margin-left: 43%;">
+            <img src="./image/logo-footer.png" alt="">
+        </div>
+        <p class="nav-text text-center pt-6"> Life is a cake and love is the icing on top of it. Without love,<br> it
+            becomes difficult to swallow life.</p>
+        <div class="pt-4 pb-10" style="margin-left: 48%;">
+            <i class="fa-brands fa-facebook-f bg p-2" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-instagram bg p-2" style="color: #ffffff;"></i>
+        </div>
+    </div>
+    <div class="w-full">
+        <p class="nav-text text-center bg-red-100/20 p-4">Copyright @ Qode Interactive</p>
+    </div>
+</body>
+
+</html>

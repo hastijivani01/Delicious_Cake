@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stalemate&display=swap"
+        rel="stylesheet">
+    <style>
+        .nav-text {
+            color: #8e714c;
+        }
+
+        .header-text {
+            font-family: 'Stalemate';
+        }
+
+        .button {
+            margin-left: 600px;
+            border-radius: 4px;
+        }
+
+        .button:hover {
+            color: white;
+            background-color: #c49b67;
+        }
+
+        .img-zoom :hover img {
+            transform: scale(1.2);
+            transition: ease-in-out 0.5s;
+        }
+
+        .bg {
+            background-color: #8e714c;
+        }
+
+        .bg:hover {
+            background-color: #5d3b0e;
+            transition: ease-in-out 0.5s;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w-full ">
+        <div class="  bg-cover bg-center flex justify-center top-40"><img src="./image/sidearea-logo.png" width="200px"
+                height="200px" alt=""></div>
+
+        <nav class="flex justify-center space-x-4 ">
+            <a href="/index.html"
+                class="nav-text  px-7 py-4 uppercase rounded-lg hover:underline-offset-8 hover:text-rose-200 hover:underline ">Home</a>
+            <a href='/about.html'
+                class="nav-text  px-7 py-4 uppercase rounded-lg hover:underline-offset-8  hover:text-rose-200 hover:underline">about us</a>
+            <a href="/gifts.html"
+                class="nav-text  px-7 py-4  uppercase rounded-lg hover:underline-offset-8 hover:text-rose-200 hover:underline">gifts</a>
+            <a href="/contact.html"
+                class="nav-text  px-7 py-4 uppercase rounded-lg hover:underline-offset-8 hover:text-rose-200 hover:underline">contact</a>
+
+        </nav>
+    </div>
+
+    <div class="box">
+        <div class="img relative">
+            <img src="./image/slider-1.jpg" height="100%" alt="">
+        </div>
+        <div class="flex right-0 absolute xl:top-60 xl:mr-40 md:top-44 md:mr-30">
+            <div class=" justify-end xl:p-4 md:p-6 xl:w-full md:w-2/5 "><img src="./image/slider-image-1.png" alt=""></div>
+            <div class=" justify-end xl:p-4 md:p-6 xl:w-full md:w-2/5 "><img src="./image/slider-image-2.png" alt=""></div>
+        </div>
+        <div
+            class="justify-center absolute xl:top-80 md:bottom-0 header-text text-white font-medium xl:ml-96 md:ml-72 text-center xl:text-9xl md:text-8xl">
+            Charmant Dessert</div>
+        <div><button class="absolute  xl:top-96 md:top-80  mt-12 button uppercase text-1xl py-2 px-10  nav-text bg-white pd-29 ">buy
+                cake</button></div>
+    </div>
+
+    <div class="w-full">
+        <div class="text">
+            <h1 class="header-text xl:text-7xl md:text-5xl nav-text text-center md:py-16 md:px-80 xl:py-20 xl:px-96 font-medium">Cake your day with piece of love</h1>
+        </div>
+    </div>
+
+    <div class="w-full h-700 overflow-hidden ">
+        <div class="container flex mx-auto flex-wrap ">
+            <div class="w-1/4  img-zoom hover:opacity-80 cursor-pointer transition-all  px-2 "><img
+                    src="./image/shop-1.jpg" alt="">
+                <h1 class="header-text nav-text text-center my-2 xl:text-5xl md:text-3xl">Manila Deux</h1>
+                <p class="nav-text text-center">$11.00</p>
+            </div>
+            <div class="w-1/4 img-zoom hover:opacity-80 cursor-pointer transition-all  px-2"><img
+                    src="./image/shop-2.jpg" alt="">
+                <h1 class="header-text nav-text text-center my-2 xl:text-5xl md:text-3xl">Valencia</h1>
+                <p class="nav-text text-center">$14.00</p>
+            </div>
+            <div class="w-1/4 img-zoom hover:opacity-80 cursor-pointer transition-all   px-2"><img
+                    src="./image/shop-3.jpg" alt="">
+                <h1 class="header-text nav-text text-center my-2 xl:text-5xl md:text-3xl">Hawaii Tarte</h1>
+                <p class="nav-text text-center">$12.50</p>
+            </div>
+            <div class="w-1/4 img-zoom hover:opacity-80 cursor-pointer transition-all  px-2"><img
+                    src="./image/shop-4.jpg" alt="">
+                <h1 class="header-text nav-text text-center my-2 xl:text-5xl md:text-3xl">Toulouse</h1>
+                <p class="nav-text text-center">$0.50</p>
+            </div>
+            <div class="w-1/4 img-zoom hover:opacity-80 cursor-pointer transition-all  px-2"><img
+                    src="./image/shop-5.jpg" alt="">
+                <h1 class="header-text nav-text text-center my-2 xl:text-5xl md:text-3xl">La Rochelle</h1>
+                <p class="nav-text text-center">$11.00</p>
+            </div>
+            <div class="w-1/4 img-zoom hover:opacity-80 cursor-pointer transition-all  px-2"><img
+                    src="./image/shop-6.jpg" alt="">
+                <h1 class="header-text nav-text text-center my-2 xl:text-5xl md:text-3xl">Dominicana</h1>
+                <p class="nav-text text-center">$10.00</p>
+            </div>
+            <div class="w-1/4 img-zoom hover:opacity-80 cursor-pointer transition-all  px-2"><img
+                    src="./image/shop-7.jpg" alt="">
+                <h1 class="header-text nav-text text-center my-2 xl:text-5xl md:text-3xl">Le Lavandou</h1>
+                <p class="nav-text text-center">$9.50</p>
+            </div>
+            <div class="w-1/4 img-zoom hover:opacity-80 cursor-pointer transition-all px-2"><img
+                    src="./image/shop-8 (1).jpg" alt="">
+                <h1 class="header-text nav-text text-center my-2 xl:text-5xl md:text-3xl">Pasadena</h1>
+                <p class="nav-text text-center">$12.00</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="w-full">
+        <div class="w-full pt-32 relative">
+            <img src="./image/section-background-1.jpg" alt="">
+
+
+            <div class="absolute  header-text nav-text text-center bottom-36">
+                <p style="margin-left: 350px;" class="bg-white p-8 xl:text-6xl md:text-3xl">We are serving breakfast from 10am till
+                    11am</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full pt-32 pb-32">
+        <div class="container flex mx-auto flex-wrap ">
+            <div class="w-1/4  "><img class="px-28" src="./image/icon-1 (1).png" alt="">
+                <h1 class="header-text nav-text text-center text-4xl">Caramel Syrup</h1>
+                <p class="nav-text text-center  ">Lorem ipsum dolor sit amet, conse ctetu adipi scing elit, sed.</p>
+            </div>
+
+            <div class="w-1/4  "><img class="px-28" src="./image/icon-2.png" alt="">
+                <h1 class="header-text nav-text text-center text-4xl">Almond Syrup</h1>
+                <p class="nav-text text-center  ">Lorem ipsum dolor sit amet, conse ctetu adipi scing elit, sed.</p>
+            </div>
+            <div class="w-1/4  "><img class="px-28" src="./image/icon-3 (2).png" alt="">
+                <h1 class="header-text nav-text text-center text-4xl">Vanilla Syrup</h1>
+                <p class="nav-text text-center  ">Lorem ipsum dolor sit amet, conse ctetu adipi scing elit, sed.</p>
+            </div>
+            <div class="w-1/4  "><img class="px-28" src="./image/icon-4.png" alt="">
+                <h1 class="header-text nav-text text-center text-4xl">Cocoa Syrup</h1>
+                <p class="nav-text text-center  ">Lorem ipsum dolor sit amet, conse ctetu adipi scing elit, sed.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="w-full bg-pink-100/30 pb-28">
+        <div class=" pt-20 text-center">
+            <h1 class="header-text nav-text text-center text-7xl font-medium">What do you celebrate today</h1>
+        </div>
+        <div class=" container flex mx-auto pt-10">
+            <div class="w-1/3 relative bg-cover"><a href=""><img src="./image/shop-11.jpg"
+                        style="height: 450px; width: 100%;" alt="">
+                    <div class="absolute inset-0 bg-black w-full transition-opacity opacity-0 duration-300 left-0 hover:opacity-100"
+                        style="background-color: rgba(0, 0, 0, .70); height:450px;">
+                        <h1 class="text-center nav-text text-5xl header-text mt-44">"Sweet slices of joy, every bite a celebration!"</h1>
+                    </div>
+                    <div class="flex">
+                        <h1 class="header-text nav-text xl:text-4xl md:text-3xl pt-2">Cocoa Syrup</h1>
+                        <p class="nav-text xl:ml-60 md:ml-44 pt-4">$18.00</p>
+                    </div>
+            </div>
+            <div class="w-1/3 relative bg-cover"><a href=""><img src="./image/shop-10.jpg"
+                        style="height: 450px; width: 100%;" alt="">
+                    <div class="absolute inset-0 bg-black w-full transition-opacity opacity-0 duration-300 left-0 hover:opacity-100"
+                        style="background-color: rgba(0, 0, 0, .70); height:450px;">
+                        <h1 class="text-center nav-text text-5xl header-text mt-44"> "Sweet indulgence, slice by slice,
+                            Cake whispers joy, a taste paradise."</h1>
+                    </div>
+                    <div class="flex">
+                        <h1 class="header-text nav-text  xl:text-4xl md:text-3xl pt-2">Fig Cake</h1>
+                        <p class="nav-text xl:ml-60 md:ml-44 pt-4">$20.00</p>
+                    </div>
+            </div>
+            <div class="w-1/3 relative bg-cover"><a href=""><img src="./image/shop-9.jpg"
+                style="height: 450px; width: 100%;" alt="">
+            <div class="absolute inset-0 bg-black w-full transition-opacity opacity-0 duration-300 left-0 hover:opacity-100"
+                style="background-color: rgba(0, 0, 0, .70); height:450px;">
+                <h1 class="text-center nav-text text-5xl header-text mt-44">
+                    "Layers of joy, sweet and divine, a slice of happiness, every time!"</h1>
+            </div>
+            <div class="flex">
+                <h1 class="header-text nav-text  xl:text-4xl md:text-3xl pt-2">Macarons Cake</h1>
+                <p class="nav-textxl:ml-60 md:ml-44 pt-4">$15.00</p>
+            </div>
+    </div>
+        </div>
+    </div>
+    </div>
+    <div class="w-full pb-32 ">
+        <img class="pt-28" style="margin-left: 49%;" src="./image/testimonials-icon.png" alt="">
+        <p class="header-text nav-text text-6xl  text-center pt-4">“Love is when you have a really amazing piece of
+            cake,<br> and it's the very last piece, but you let her have it.”</p>
+        <h1 class="nav-text text-center pt-14">Julien Marseille</h1>
+        <i class="fa-solid fa-circle nav-text pt-4 ml-4" style="margin-left: 48%;"></i><i
+            class="fa-regular fa-circle nav-text ml-2"></i><i class="fa-regular fa-circle nav-text ml-2"></i>
+    </div>
+
+
+    <div class="w-full">
+        <div class="relative pt-32 bottom-32 img-zoom">
+            <img src="./image/video-box-image.jpg" alt="">
+            <div class="absolute bg xl:bottom-40 md:bottom-28 rounded-full xl:p-14 md:p-12" style="margin-left: 44%;">
+                <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full">
+        <div class="" style="margin-left: 43%;">
+            <img src="./image/logo-footer.png" alt="">
+        </div>
+        <p class="nav-text text-center pt-6"> Life is a cake and love is the icing on top of it. Without love,<br> it
+            becomes difficult to swallow life.</p>
+        <div class="pt-4 pb-10" style="margin-left: 48%;">
+            <i class="fa-brands fa-facebook-f bg p-2" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-instagram bg p-2" style="color: #ffffff;"></i>
+        </div>
+    </div>
+    <div class="w-full">
+        <p class="nav-text text-center bg-red-100/20 p-4">Copyright @ Qode Interactive</p>
+    </div>
+</body>
+
+</html>

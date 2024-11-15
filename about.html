@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stalemate&display=swap"
+        rel="stylesheet">
+    <style>
+        .nav-text {
+            color: #8e714c;
+        }
+
+        .header-text {
+            font-family: 'Stalemate';
+        }
+
+        .about-img {
+            background-image: url(./image/about-title-image.jpg);
+            height: 800px;
+            background-attachment: fixed;
+        }
+
+        .about-text {
+            background-attachment: scroll;
+        }
+        .button {
+            margin-left: 600px;
+            border-radius: 4px;
+        }
+
+        .button:hover {
+            color: white;
+            background-color: #c49b67;
+        }
+        .img-zoom :hover img {
+            transform: scale(1.2);
+            transition: ease-in-out 0.5s;
+        }
+
+        .bg {
+            background-color: #8e714c;
+        }
+
+        .bg:hover {
+            background-color: #5d3b0e;
+            transition: ease-in-out 0.5s;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w-full  about-img">
+        <!-- <img src="./image/about-title-image.jpg" alt=""> -->
+    </div>
+    <div class="w-full absolute bg-white top-0">
+        <div class="  bg-cover bg-center flex justify-center top-40"><img src="./image/sidearea-logo.png" width="200px"
+                height="200px" alt=""></div>
+
+        <nav class="flex justify-center space-x-4 ">
+            <a href="/index.html"
+                class="nav-text  px-7 py-4 uppercase rounded-lg hover:underline-offset-8 hover:text-rose-200 hover:underline ">Home</a>
+            <a href="/about.html"
+                class="nav-text  px-7 py-4 uppercase rounded-lg hover:underline-offset-8  hover:text-rose-200 hover:underline">about
+                us</a>
+            <a href="/gifts.html"
+                class="nav-text  px-7 py-4  uppercase rounded-lg hover:underline-offset-8 hover:text-rose-200 hover:underline">gifts</a>
+            <a href="/contact.html"
+                class="nav-text  px-7 py-4 uppercase rounded-lg hover:underline-offset-8 hover:text-rose-200 hover:underline">contact</a>
+
+        </nav>
+    </div>
+    <div class="w-full bg-white about-text pt-28 pb-32" style="height: 420px;">
+        <h1 class="nav-text header-text text-7xl text-center">We live our dream</h1>
+        <p class="nav-text  text-1xl text-center">Lorem ipsum dolor sit amet, consectetu adipi scing elit, sed do
+            eiusmod tempor incididunt ut labore. Et <br> dolore magna aliqua ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip <br> ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore <br> eu fugiat nulla lorem ipsum dolor sit amet
+            pariatur.</p>
+        <div class="" style="margin-left: 45%;">
+            <img src="./image/about-signature.png" alt="">
+        </div>
+    </div>
+
+
+    <div class="w-full bg-pink-100/30 pt-24 pb-32">
+        <div class="container flex mx-auto flex-wrap ">
+            <div class="w-1/4  "><img class="px-28" src="./image/icon-1 (1).png" alt="">
+                <h1 class="header-text nav-text pt-2 text-center text-4xl">Caramel Syrup</h1>
+                <p class="nav-text text-center pt-4 ">Lorem ipsum dolor sit amet, conse ctetu adipi scing elit, sed.</p>
+            </div>
+
+            <div class="w-1/4  "><img class="px-28" src="./image/icon-2.png" alt="">
+                <h1 class="header-text nav-text pt-2 text-center text-4xl">Almond Syrup</h1>
+                <p class="nav-text text-center pt-4  ">Lorem ipsum dolor sit amet, conse ctetu adipi scing elit, sed.</p>
+            </div>
+            <div class="w-1/4  "><img class="px-28" src="./image/icon-3 (2).png" alt="">
+                <h1 class="header-text nav-text pt-2 text-center text-4xl">Vanilla Syrup</h1>
+                <p class="nav-text text-center pt-4 ">Lorem ipsum dolor sit amet, conse ctetu adipi scing elit, sed.</p>
+            </div>
+            <div class="w-1/4  "><img class="px-28" src="./image/icon-4.png" alt="">
+                <h1 class="header-text nav-text pt-2 text-center text-4xl">Cocoa Syrup</h1>
+                <p class="nav-text text-center pt-4 ">Lorem ipsum dolor sit amet, conse ctetu adipi scing elit, sed.</p>
+            </div>
+        </div>
+    </div>
+    <div class="w-full">
+        <div class="relative pt-32 bottom-32 img-zoom">
+            <img src="./image/video-box-image.jpg" alt="">
+            <div class="absolute bg rounded-full xl:bottom-40 md:bottom-28 xl:p-14 md:p-12" style="margin-left: 44%;">
+                <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </div>
+    <div class="w-full">
+        <div class="" style="margin-left: 43%;">
+            <img src="./image/logo-footer.png" alt="">
+        </div>
+        <p class="nav-text text-center pt-6"> Life is a cake and love is the icing on top of it. Without love,<br> it
+            becomes difficult to swallow life.</p>
+        <div class="pt-4 pb-10" style="margin-left: 48%;">
+            <i class="fa-brands fa-facebook-f bg p-2" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-instagram bg p-2" style="color: #ffffff;"></i>
+        </div>
+    </div>
+    <div class="w-full">
+        <p class="nav-text text-center bg-red-100/20 p-4">Copyright @ Qode Interactive</p>
+    </div>
+</body>
+
+</html>
